@@ -1,0 +1,11 @@
+extend layout.pug
+
+block content
+    h1 #{currentBrand["brand"]}
+    p Three popular #{currentBrand["brand"]} models:
+      ul
+        li #{currentBrand["models"][0]}
+        li #{currentBrand["models"][1]}
+        li #{currentBrand["models"][2]}      
+    p ← 
+      a(href="/") Back  

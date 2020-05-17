@@ -1,0 +1,70 @@
+/* Minimal Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+/* Base Style */
+
+body {
+  background-color: #fff;
+  font-family: "Catamaran", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  color: #464646;
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 0 3%;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+}
+
+/* Links */
+
+a:link,
+a:visited,
+a:active {
+  color: #1962ff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* Lists */
+
+ul {
+  list-style-type: square;
+}
+
+ul,
+ol {
+  margin-bottom: 1rem;
+  margin-top: 0.5em;
+  margin-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 1.2rem;
+}
+
+/* Code */
+code {
+  padding: 0.2rem 0.2rem;
+  margin: 0.5rem 0.2em;
+  border-radius: 4px;
+  font-size: 70%;
+  white-space: nowrap;
+  background-color: #eeeef0;
+  color: #000;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "brand": "toyota",
+    "models": ["corolla", "camry", "highlander"]
+  },
+  {
+    "brand": "subaru",
+    "models": ["forester", "outback", "impreza"]
+  },
+  {
+    "brand": "nissan",
+    "models": ["versa", "altima", "rogue"]
+  }
+]

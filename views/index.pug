@@ -1,0 +1,19 @@
+extend layout.pug
+
+block content
+    h1 #{title}
+    p Hi! This is a #{message}.
+    p It has an <code>/index</code>, <code>/contact</code> and <code>/about</code> pages, each of them rendered by a basic Express route, and three car-specific pages rendered with Express dynamic routes using parameters taken from the URL. 
+    p The aim is not to make a pretty site but just show the basic functionality that Express gives you to build a back-end dynamic site.
+    p We can use the list below to select a car brand, and Express will use information on the URL path to create routes that will take us to a specific car brand page where three different models will be listed:
+      ul
+        li 
+          a(href="/toyota") Toyota
+        li 
+          a(href="/subaru") Subaru
+        li 
+          a(href="/nissan") Nissan
+    p You can access this <a href="https://mjq48.sse.codesandbox.io/">Demo</a> to see this site in action. Even though the site looks very simple, this is not a static site. The pages are generated <strong>on the fly</strong> by Express the moment you click on a link.
+    p If you want to clone this example go here: 
+    a(href="https://github.com/mariobox/minimal-express-2020") https://github.com/mariobox/minimal-express-2020.
+    <br /><br />

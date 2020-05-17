@@ -1,0 +1,17 @@
+{
+  "name": "Cars",
+  "version": "1.0.0",
+  "description": "basic server-side dynamic site made with ExpressJS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "pug": "2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
